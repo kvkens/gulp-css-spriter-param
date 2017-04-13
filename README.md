@@ -1,4 +1,19 @@
-[![npm version](https://badge.fury.io/js/gulp-css-spriter.svg)](http://badge.fury.io/js/gulp-css-spriter) [![Build Status](https://travis-ci.org/MadLittleMods/gulp-css-spriter.svg?branch=master)](https://travis-ci.org/MadLittleMods/gulp-css-spriter)
+[![npm version](https://badge.fury.io/js/gulp-css-spriter-param.svg)](http://badge.fury.io/js/gulp-css-spriter) [![Build Status](https://travis-ci.org/MadLittleMods/gulp-css-spriter.svg?branch=master)](https://travis-ci.org/MadLittleMods/gulp-css-spriter)
+
+
+# 说明
+
+- 基于`gulp-css-spriter`修改而成，增加特定参数(`?__sprite`)才去处理雪碧图，用法：
+
+```css
+.solutionAll-1{
+	background: url('../../images/header/cloudplat/intelligence.png?__sprite') no-repeat right 10px;
+	background-size: 70px 70px;
+}
+```
+
+这样才去处理此背景图作为雪碧图操作，就是这么简单。
+
 
 # gulp-css-spriter
 
