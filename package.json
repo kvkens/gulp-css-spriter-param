@@ -1,0 +1,42 @@
+{
+  "name": "gulp-css-spriter-param",
+  "version": "0.0.1",
+  "description": "Sprite Sheet Generation from CSS source files. The best and different approach to sprite sheets.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kvkens/gulp-css-spriter-param.git"
+  },
+  "keywords": [
+    "css",
+    "gulp",
+    "gulpplugin",
+    "gulpfriendly",
+    "sprite",
+    "spritesheet",
+    "sass",
+    "less"
+  ],
+  "author": "Eric Eastwood <contact@ericeastwood.com> (http://ericeastwood.com/)",
+  "license": "MIT",
+  "bugs": "https://github.com/kvkens/gulp-css-spriter-param/issues",
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "bluebird": "^2.9.3",
+    "css": "^2.1.0",
+    "extend": "^2.0.0",
+    "fs-extra": "^0.14.0",
+    "gulp-util": "^3.0.1",
+    "spritesmith": "^1.0.3",
+    "through2": "^0.6.2"
+  },
+  "devDependencies": {
+    "chai": "^1.10.0",
+    "chai-as-promised": "^4.1.1",
+    "event-stream": "^3.2.2",
+    "gulp": "^3.8.10",
+    "mocha": "^2.1.0"
+  }
+}
