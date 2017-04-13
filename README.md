@@ -9,7 +9,7 @@ You can easily exclude/include certain background image declarations using meta 
 # Install
 
 ```
-npm install gulp-css-spriter
+npm install gulp-css-spriter-param
 ```
 
 # About
